@@ -14,7 +14,7 @@ int main(void)
 
 gedit hello.c
 
-gcc hello.c
+gcc hello.c編譯他
 
 ls
 a.out    Documents  hello.c  Pictures  Templates
@@ -24,4 +24,6 @@ Desktop  Downloads  Music    Public    Videos
 Hello C!
 Hello World!
 sh: 1: pause: not found
+
+clear清廚
 
