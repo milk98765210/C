@@ -26,4 +26,5 @@ Hello World!
 sh: 1: pause: not found
 
 clear清廚
+exit()類似離開
 
