@@ -10,3 +10,31 @@ int main(void)
    printf("Hello World!\n");
 }
 Window+shift+s局部截圖
+
+#include <stdio.h> 
+#include <stdlib.h> 
+printme()
+{ 
+   printf("Hello 我親愛偉大的恩師!\n");
+   printf("Hello 世界\n");
+}
+printtree()
+{  
+   printf("      \n");
+   printf("      \n");
+   printf("     *      \n");
+   printf("    ***     \n");
+   printf("   *****    \n");
+   printf("  *******   \n");
+   printf("**********  \n");
+   printf("    ***     \n");
+   printf("    ***     \n");
+}
+int main(void) 
+{
+   printf("我是4070E001李建輝\n");
+   printme();
+   printtree();
+   system("pause");
+   return  0;
+}
