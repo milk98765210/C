@@ -1,1 +1,71 @@
 
+#include<stdio.h>
+int main()
+{
+    int a, b, i, c;
+    for(i=1; i<=5; i++)
+        c = c * 2;
+
+    printf("2**5= : %d", c);
+    return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+    int a, b,i, c;
+
+    c = 1;
+    i = 1;
+    while(i <= 5)
+    {
+        c = c * 2;
+        i++;
+    }
+    printf("Power : %d", c);
+    return 0;
+}
+
+#include<stdio.h>
+#include<conio.h>
+int main(void)
+{
+     int a, b,i, c;
+ 
+      c = 1;
+    i = 1;
+    while(i <= 5)
+    do
+    {
+        c = c * 2;
+        i++;
+    }
+	while(i<=a);
+    
+    printf("Power : %d", c);
+    return 0;
+    getch();
+ }
+ 
+ #include <stdio.h>
+
+int c(int n1, int n2);
+
+int main()
+{
+    int a=2, cR=5, r;
+
+ 
+    r = c(a,cR);
+
+    printf("%d**%d = %d", a, cR, r);
+    return 0;
+}
+
+int c(int a, int cR)
+{
+    if (cR != 0)
+        return (a*c(a, cR-1));
+    else
+        return 1;
+}
