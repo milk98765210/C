@@ -49,7 +49,7 @@ int main(void)
  
  #include <stdio.h>
 
-int c(int n1, int n2);
+int c(int a, int cR);
 
 int main()
 {
